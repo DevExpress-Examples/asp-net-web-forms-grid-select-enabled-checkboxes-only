@@ -20,10 +20,9 @@
             OnDataBound="grid_DataBound">
             <Settings ShowFilterRow="true" />
             <Columns>
-                <dx:GridViewCommandColumn ShowSelectCheckbox="True" VisibleIndex="0">
+                <dx:GridViewCommandColumn ShowSelectCheckbox="True" >
                     <HeaderTemplate>
-                        <dx:ASPxCheckBox ID="cbAll" runat="server" ClientInstanceName="cbAll" ToolTip="Select all rows"
-                            BackColor="White" OnInit="cbAll_Init">
+                        <dx:ASPxCheckBox ID="cbAll" runat="server" ClientInstanceName="cbAll" ToolTip="Select all rows" OnInit="cbAll_Init">
                             <ClientSideEvents CheckedChanged="OnAllCheckedChanged" />
                         </dx:ASPxCheckBox>
                         <dx:ASPxCheckBox ID="cbPage" runat="server" ClientInstanceName="cbPage" ToolTip="Select all rows within the page">
@@ -31,23 +30,10 @@
                         </dx:ASPxCheckBox>
                     </HeaderTemplate>
                 </dx:GridViewCommandColumn>
-                <dx:GridViewDataTextColumn FieldName="ProductID" ReadOnly="True" VisibleIndex="1">
-                    <EditFormSettings Visible="False" />
-                </dx:GridViewDataTextColumn>
-                <dx:GridViewDataTextColumn FieldName="ProductName" VisibleIndex="2">
-                </dx:GridViewDataTextColumn>
-                <dx:GridViewDataTextColumn FieldName="CategoryID" VisibleIndex="3">
-                </dx:GridViewDataTextColumn>
-                <dx:GridViewDataTextColumn Visible="true" FieldName="CategoryID">
-                </dx:GridViewDataTextColumn>
-                <dx:GridViewDataTextColumn FieldName="QuantityPerUnit" VisibleIndex="4">
-                </dx:GridViewDataTextColumn>
-                <dx:GridViewDataTextColumn FieldName="UnitPrice" VisibleIndex="5">
-                </dx:GridViewDataTextColumn>
-                <dx:GridViewDataTextColumn FieldName="UnitsInStock" VisibleIndex="6">
-                </dx:GridViewDataTextColumn>
-                <dx:GridViewDataTextColumn FieldName="UnitsOnOrder" VisibleIndex="7">
-                </dx:GridViewDataTextColumn>
+                <dx:GridViewDataTextColumn FieldName="ProductName" />
+                <dx:GridViewDataTextColumn FieldName="QuantityPerUnit" />
+                <dx:GridViewDataTextColumn FieldName="UnitPrice" />
+                <dx:GridViewDataTextColumn FieldName="UnitsInStock" />
             </Columns>
             <ClientSideEvents SelectionChanged="OnGridSelectionChanged" EndCallback="OnGridEndCallback" />
         </dx:ASPxGridView>
