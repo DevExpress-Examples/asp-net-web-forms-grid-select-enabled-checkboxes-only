@@ -12,7 +12,7 @@
 <!-- default file list end -->
 # ASPxGridView - How to select all rows except disabled rows on the client side
 <!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/e3996/)**
+**[[Run Online]](https://codecentral.devexpress.com/128535298/)**
 <!-- run online end -->
 
 
