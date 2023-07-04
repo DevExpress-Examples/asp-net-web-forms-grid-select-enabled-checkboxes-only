@@ -6,7 +6,7 @@
 
 # Grid View for ASP.NET Web Forms - How to select all rows except disabled rows on the client side
 <!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/e3996/)**
+**[[Run Online]](https://codecentral.devexpress.com/128535298/)**
 <!-- run online end -->
 
 Client-side [SelectAllRowsOnPage](https://docs.devexpress.com/AspNet/js-ASPxClientGridView.SelectAllRowsOnPage) and [SelectRows](https://docs.devexpress.com/AspNet/js-ASPxClientGridView.SelectRows) methods change the selection state of disabled checkboxes. 
