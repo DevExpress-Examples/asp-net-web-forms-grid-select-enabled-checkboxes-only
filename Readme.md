@@ -9,9 +9,9 @@
 **[[Run Online]](https://codecentral.devexpress.com/e3996/)**
 <!-- run online end -->
 
-Client-side [SelectAllRowsOnPage](https://docs.devexpress.com/AspNet/js-ASPxClientGridView.SelectAllRowsOnPage) and [SelectRows](https://docs.devexpress.com/AspNet/js-ASPxClientGridView.SelectRows) methods change selection state of disabled check boxes. 
+Client-side [SelectAllRowsOnPage](https://docs.devexpress.com/AspNet/js-ASPxClientGridView.SelectAllRowsOnPage) and [SelectRows](https://docs.devexpress.com/AspNet/js-ASPxClientGridView.SelectRows) methods change the selection state of disabled checkboxes. 
 
-This example illustrates how to implement **Select All** check boxes that change selection state of enabled check boxes only. To accomplish this task you should select each row in a cycle manually.
+This example illustrates how to implement **Select All** checkboxes that change the selection state of enabled checkboxes only. To do this, you should select each row in a cycle.
 
 ![](grid.png)
 ## Files to Review
