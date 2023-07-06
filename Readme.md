@@ -16,9 +16,9 @@ This example illustrates how to implement **Select All** checkboxes that change 
 ![](grid.png)
 ## Files to Review
 
-* [Default.aspx](./CS/WebSite/Default.aspx) (VB: [Default.aspx](./VB/WebSite/Default.aspx))
-* [Default.aspx.cs](./CS/WebSite/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/WebSite/Default.aspx.vb))
-* [JScript.js](./CS/WebSite/Scripts/JScript.js) (VB: [JScript.js](./VB/WebSite/Scripts/JScript.js))
+* [Default.aspx](./CS/WebSite/Default.aspx)
+* [Default.aspx.cs](./CS/WebSite/Default.aspx.cs)
+* [JScript.js](./CS/WebSite/Scripts/JScript.js)
 
 ## Online Demo
 
